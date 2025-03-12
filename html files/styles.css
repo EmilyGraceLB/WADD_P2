@@ -10,11 +10,24 @@ nav {
 }
 
 li {
-    display: inline;
+    display: inline-block;
+}
+
+a:link {
+    color: azure;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+a:hover {
+    color: blueviolet;
 }
 
 nav ul {
     display: flex;
+    display: inline;
     list-style-type: none;
     flex-wrap: wrap;
     gap: 1rem;
