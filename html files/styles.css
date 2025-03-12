@@ -25,6 +25,10 @@ a:hover {
     color: blueviolet;
 }
 
+a:active {
+    color: paleturquoise;
+}
+
 nav ul {
     display: flex;
     display: inline;
@@ -32,9 +36,5 @@ nav ul {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
-}
-
-a {
-    display: block;
 }
 
