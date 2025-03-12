@@ -1,18 +1,27 @@
+/**sets font and background colour**/
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #FFC2C7;
 }
 
+/**positions navigation bar and changes the colour**/
 nav {
     background-color: #ff96a9;
     margin: 0;
     padding: 0.05rem;
 }
 
+/**keeps the links to different pages in a horizontal line**/
 li {
     display: inline-block;
 }
 
+/**keep the nav bar at the top of the page when user scrolls**/
+.links {
+    position: sticky;
+}
+
+/**changes link colours**/
 a:link {
     color: azure;
 }
@@ -29,12 +38,13 @@ a:active {
     color: paleturquoise;
 }
 
-nav ul {
+
+/* nav ul {
     display: flex;
     display: inline;
     list-style-type: none;
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
-}
+} */
 
